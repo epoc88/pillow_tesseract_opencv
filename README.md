@@ -5,7 +5,7 @@ In the lectures for this week you were shown how to make a contact sheet for dig
 
 Your assignment is to learn how to take the stub code provided in the lecture (cleaned up below), and generate the following output image:
 
-<img src="https://github.com/epoc88/pillow_tesseract_opencv/blob/master/assignment1.png">
+<img src= "https://github.com/epoc88/pillow_tesseract_opencv/blob/master/readonly/assignment1.png">
 
 From the image you can see there are two parameters which are being varied for each sub-image. First, the rows are changed by color channel, where the top is the red channel, the middle is the green channel, and the bottom is the blue channel. Wait, why don't the colors look more red, green, and blue, in that order? Because the change you to be making is the ratio, or intensity, or that channel, in relationship to the other channels. We're going to use three different intensities, 0.1 (reduce the channel a lot), 0.5 (reduce the channel in half), and 0.9 (reduce the channel only a little bit).
 
@@ -23,4 +23,4 @@ Take a ZIP file of images and process them, using a library built into python th
 
 Each page of the newspapers is saved as a single PNG image in a file called images.zip. These newspapers are in english, and contain a variety of stories, advertisements and images. Note: This file is fairly large (~200 MB) and may take some time to work with, I would encourage you to use small_img.zip for testing.   
     
-<img src="https://github.com/epoc88/pillow_tesseract_opencv/blob/master/small_project.png">
+<img src="https://github.com/epoc88/pillow_tesseract_opencv/blob/master/readonly/small_project.png">
